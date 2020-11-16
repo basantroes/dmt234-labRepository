@@ -1,0 +1,13 @@
+    
+#p1{
+    color:green;
+     font-size: 50px;
+      text-align: center;
+       text-transform: uppercase;
+       background-image: url("https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg");
+
+    }
+    body{
+        background-image: url("https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg");
+    background-repeat: repeat-x;
+    }
