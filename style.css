@@ -49,3 +49,8 @@ img{
     margin-left: 25%;
     margin-right: 25%;
 }
+h1{
+    display: block;
+    background-image: linear-gradient(lightgreen,grey);
+    border: 1px solid black;
+}
