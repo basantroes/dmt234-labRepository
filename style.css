@@ -1,7 +1,6 @@
 ul{
     list-style-type: none;
     border: 1px solid grey;
-    border-radius: 14px;
     background-color:lightgray;
     overflow: hidden;
     padding: 0px;
@@ -34,6 +33,8 @@ li a:hover{
 table{
     border-collapse:collapse ;
     width: 100%;
+    margin: 10px;
+    padding: 10px;
 }
 thead tr{
     background-color: green;
@@ -41,7 +42,8 @@ thead tr{
     color: white;
 }
 tbody tr:nth-child(odd){
-    background-image: linear-gradient(red, yellow);
+   /* background-image: linear-gradient(red, yellow); */
+   background-color: lightgray;
 }
 img{
     margin-left: 25%;
