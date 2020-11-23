@@ -1,13 +1,49 @@
-    
-#p1{
-    color:green;
-     font-size: 50px;
-      text-align: center;
-       text-transform: uppercase;
-       background-image: url("https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg");
-
-    }
-    body{
-        background-image: url("https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg");
-    background-repeat: repeat-x;
-    }
+ul{
+    list-style-type: none;
+    border: 1px solid grey;
+    border-radius: 14px;
+    background-color:lightgray;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    color: dimgray;
+    padding:14px;
+}
+li a:hover{
+    background-color: black;
+    color: white;
+}
+.nav-right{
+    float: right;
+}
+.active{
+    background-color: green;
+    color: white;
+}
+.active:hover{
+    background-color: green;
+    color: white;
+}
+table{
+    border-collapse:collapse ;
+    width: 100%;
+}
+thead tr{
+    background-color: green;
+    text-align: center;
+    color: white;
+}
+tbody tr:nth-child(odd){
+    background-image: linear-gradient(red, yellow);
+}
+img{
+    margin-left: 25%;
+    margin-right: 25%;
+}
